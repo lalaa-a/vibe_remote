@@ -99,16 +99,12 @@ vibe_remote(serverside)/
 │   └── 013_token_usage.sql
 │
 ├── supabase/                     # Supabase project exports (gitignored)
-│   ├── schema.sql                # Full DB schema dump
-│   ├── data.sql                  # Data dump
-│   ├── auth-schema.sql           # Auth schema dump
-│   └── auth-users.sql            # Auth users dump
-│
-├── SCALING.md                    # Scaling guide (Tier 0–3 roadmap)
-├── SELF_HOST_SUPABASE.md         # Guide for self-hosting Supabase on VPS
-├── confirmMail.md                # Changelog: email confirmation page
-├── changes.md                    # Changelog: agent-ping, session, file-browser
-└── newlyAdded.md                 # Changelog: multi-harness support
+    ├── schema.sql                # Full DB schema dump
+    ├── data.sql                  # Data dump
+    ├── auth-schema.sql           # Auth schema dump
+    └── auth-users.sql            # Auth users dump
+
+
 ```
 
 ---
