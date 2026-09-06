@@ -1,4 +1,4 @@
-# VibeRemote Desktop — Codebase Analysis
+# VibeRemote Desktop 
 
 > Electron + Node.js relay daemon for remote AI coding agent supervision
 
