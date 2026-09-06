@@ -35,8 +35,6 @@ The **Vibe Remote** server is the central API broker that connects the desktop r
 | Mobile app | Bearer JWT (Supabase GoTrue) | Approves/denies, sends prompts, monitors sessions |
 | Express server (this repo) | — | Brokers all communication, holds service role key |
 
-**Author:** spiralware · **License:** MIT
-
 ---
 
 ## 2. Tech Stack
