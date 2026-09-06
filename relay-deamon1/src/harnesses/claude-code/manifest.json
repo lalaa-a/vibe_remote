@@ -1,0 +1,14 @@
+{
+  "id": "claude-code",
+  "displayName": "Claude Code",
+  "version": "1.0.0",
+  "sdkVersion": "^1.0.0",
+  "capabilities": {
+    "approvals": true,
+    "narrative": true,
+    "injection": true,
+    "fileTree": true,
+    "sessionList": true,
+    "approvalMechanism": "hook"
+  }
+}

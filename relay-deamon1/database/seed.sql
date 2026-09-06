@@ -1,0 +1,62 @@
+-- ============================================================
+-- Seed data for local development and testing
+-- Replace the UUIDs with real values from your Supabase Auth
+-- ============================================================
+
+-- ── Test user (create via Supabase Auth first, paste the UUID here) ──────────
+-- do $$
+-- declare
+--   v_user_id    uuid := 'YOUR-USER-UUID-HERE';
+--   v_machine_id uuid := gen_random_uuid();
+--   v_agent_id   uuid := gen_random_uuid();
+-- begin
+
+--   insert into machines (id, user_id, label, api_key_hash, is_online, last_seen)
+--   values (
+--     v_machine_id,
+--     v_user_id,
+--     'Dev MacBook Pro',
+--     encode(sha256('test-api-key-do-not-use-in-prod'), 'hex'),
+--     true,
+--     now()
+--   );
+
+--   insert into agents (id, machine_id, session_id, name)
+--   values (
+--     v_agent_id,
+--     v_machine_id,
+--     'test-session-001',
+--     'auth refactor'
+--   );
+
+--   -- Pending Bash request
+--   insert into pending_requests (
+--     user_id, machine_id, agent_id, session_id,
+--     tool_name, display_type, summary,
+--     risk_level, risk_reason, risk_icon,
+--     files_affected, command, status
+--   ) values (
+--     v_user_id, v_machine_id, v_agent_id, 'test-session-001',
+--     'Bash', 'bash', 'npm install @supabase/supabase-js',
+--     'medium', 'Installs npm packages', '🔶',
+--     '{}', 'npm install @supabase/supabase-js', 'pending'
+--   );
+
+--   -- Pending Write request
+--   insert into pending_requests (
+--     user_id, machine_id, agent_id, session_id,
+--     tool_name, display_type, summary,
+--     risk_level, risk_reason, risk_icon,
+--     files_affected, file_path, status,
+--     diff
+--   ) values (
+--     v_user_id, v_machine_id, v_agent_id, 'test-session-001',
+--     'Write', 'write', 'Create src/lib/supabase.ts  (+12 −0)',
+--     'low', 'Source file change', '✅',
+--     array['src/lib/supabase.ts'],
+--     'src/lib/supabase.ts',
+--     'pending',
+--     '{"type":"file_diff","is_new_file":true,"stats":{"added":12,"removed":0},"hunks":[]}'::jsonb
+--   );
+
+-- end $$;

@@ -1,0 +1,30 @@
+appId: com.spiralware.viberemote
+productName: VibeRemote
+copyright: Copyright © 2026 spiralware
+
+# NOTE: We build with `electron-builder --prepackaged out/VibeRemote-win32-x64`.
+# That means Electron Forge has ALREADY packaged the app (asar, relay-deamon1 as an
+# extraResource, postPackage cleanup, and Fuses — all defined in forge.config.js).
+# electron-builder only wraps that finished folder into an NSIS installer, so packaging
+# keys like `files`, `asar`, and `asarUnpack` do NOT belong here — Forge owns those.
+
+directories:
+  output: dist-installer
+
+win:
+  target:
+    - nsis
+  # icon is already baked into the app by Forge (packagerConfig.icon).
+  # Optionally override the installer's own icon below.
+
+nsis:
+  oneClick: false                # ← multi-step wizard (Welcome → Folder → Install → Finish)
+  perMachine: true               # ← installs to C:\Program Files (triggers UAC)
+  allowToChangeInstallationDirectory: true   # user can pick the folder
+  allowElevation: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  runAfterFinish: true
+  # license: build/license.txt          # shows a License Agreement page in the wizard
+  # installerIcon: src/assets/logo/vibeRemote_icon.ico
+  # uninstallerIcon: src/assets/logo/vibeRemote_icon.ico

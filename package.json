@@ -1,0 +1,47 @@
+{
+  "name": "vibe-remote",
+  "productName": "VibeRemote",
+  "version": "1.6.5",
+  "description": "testing version",
+  "main": ".vite/build/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "build:vite": "electron-forge package",
+    "dist": "npm run build:vite && electron-builder --win --prepackaged \"out/VibeRemote-win32-x64\" --config electron-builder.yml",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "spiralware",
+    "email": "lwravishan@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.11.1",
+    "@electron-forge/maker-deb": "^7.11.1",
+    "@electron-forge/maker-rpm": "^7.11.1",
+    "@electron-forge/maker-squirrel": "^7.11.1",
+    "@electron-forge/maker-zip": "^7.11.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.11.1",
+    "@electron-forge/plugin-fuses": "^7.11.1",
+    "@electron-forge/plugin-vite": "^7.11.1",
+    "@electron/fuses": "^1.8.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "electron": "42.0.1",
+    "electron-builder": "^26.15.3",
+    "esbuild": "^0.28.1",
+    "javascript-obfuscator": "^5.5.0",
+    "vite": "^5.4.21"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.4",
+    "electron-squirrel-startup": "^1.0.1",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  }
+}

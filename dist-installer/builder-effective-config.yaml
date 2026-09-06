@@ -1,0 +1,19 @@
+directories:
+  output: dist-installer
+  buildResources: build
+appId: com.spiralware.viberemote
+productName: VibeRemote
+copyright: Copyright © 2026 spiralware
+win:
+  target:
+    - nsis
+nsis:
+  oneClick: false
+  perMachine: true
+  allowToChangeInstallationDirectory: true
+  allowElevation: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  runAfterFinish: true
+files: []
+electronVersion: 42.0.1

@@ -1,0 +1,14 @@
+{
+  "id": "gemini-cli",
+  "displayName": "Gemini CLI",
+  "version": "0.1.0",
+  "sdkVersion": "^1.0.0",
+  "capabilities": {
+    "approvals": true,
+    "narrative": true,
+    "injection": true,
+    "fileTree": false,
+    "sessionList": false,
+    "approvalMechanism": "pty-proxy"
+  }
+}

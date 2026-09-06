@@ -1,0 +1,23 @@
+{
+  "name": "relay-daemon",
+  "version": "1.1.0",
+  "description": "Multi-harness relay daemon — intercepts tool-use calls across Claude Code, OpenCode, Gemini CLI and routes approval to mobile",
+  "type": "module",
+  "main": "hook.js",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "heartbeat": "node scripts/heartbeat.js",
+    "harness": "node harness-cli.js",
+    "harness:list": "node harness-cli.js list",
+    "test-event": "echo '{\"tool_name\":\"Bash\",\"tool_input\":{\"command\":\"npm install\"},\"session_id\":\"test-session-001\"}' | node hook.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.1",
+    "diff": "^5.2.0",
+    "dotenv": "^16.4.5"
+  },
+  "optionalDependencies": {
+    "node-pty": "^1.0.0",
+    "@opencode-ai/sdk": "^0.4.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "opencode",
+  "displayName": "OpenCode",
+  "version": "1.0.0",
+  "sdkVersion": "^1.0.0",
+  "capabilities": {
+    "approvals": true,
+    "narrative": true,
+    "injection": true,
+    "fileTree": false,
+    "sessionList": false,
+    "approvalMechanism": "plugin"
+  }
+}
