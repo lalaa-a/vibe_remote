@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "207277934523",
+    "project_id": "vibe-remote-5b06e",
+    "storage_bucket": "vibe-remote-5b06e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207277934523:android:b5e083575e546483c7e69e",
+        "android_client_info": {
+          "package_name": "com.agentcontrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADKlD2ovn0hbDsZMXehY0E2fh0MOYgO2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
