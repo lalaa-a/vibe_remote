@@ -1,6 +1,6 @@
 # Vibe Remote
 
-> Remotely supervise your AI coding agents (Claude Code, OpenCode, Gemini CLI) from your phone — approve tool calls, answer questions, inject prompts, and watch your agent work in real time, from anywhere.
+> Remotely supervise your AI coding agents (Claude Code, OpenCode, Gemini CLI) from your phone approve tool calls, answer questions, inject prompts, and watch your agent work in real time, from anywhere.
 
 [![License](https://img.shields.io/badge/license-BSL--1.1-blue)](./LICENSE)
 [![Server](https://img.shields.io/badge/server-Express-black)](./server)
