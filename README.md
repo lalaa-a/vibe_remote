@@ -89,10 +89,5 @@ Contributions, forks, and pull requests are welcome across all three components.
 
 ## License
 
-Vibe Remote is source-available under the **[Business Source License 1.1](./LICENSE)**. In short:
-
-- ✅ Free to self-host, modify, and use — including internally at a company
-- ✅ Free to fork and contribute
-- ❌ Not free to offer as a **paid** hosted/managed service to third parties without a commercial agreement
-
+Vibe Remote is source-available under the **[Business Source License 1.1](./LICENSE)**.
 See **[COMMERCIAL-LICENSE.md](./COMMERCIAL-LICENSE.md)** for commercial hosting terms, and the license file for the full legal text (it converts to Apache 2.0 after the stated change date).
