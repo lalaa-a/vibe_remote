@@ -13,12 +13,26 @@
 ---
 
 ## Screenshots
+
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1pgKyH2_rDhMJn3WIOBCCoRg0-VuZOkHp" alt="Desktop app" width="180" />
-  <img src="https://drive.google.com/uc?export=view&id=10OTuzRVivH1a50d62AjurPvnE24ulwdD" alt="Mobile app 1" width="180" />
-  <img src="https://drive.google.com/uc?export=view&id=1d3TCAUUkMlqBpTDDnQSWSJy9SQbks7m6" alt="Mobile app 2" width="180" />
-  <img src="https://drive.google.com/uc?export=view&id=1BKvpzWOtq_wbbgDcSpNuuEZdqGEdE0eE" alt="Mobile app 3" width="180" />
+  <span style="display: inline-block; text-align: center; margin: 0 4px;">
+    <img src="https://drive.google.com/uc?export=view&id=1pgKyH2_rDhMJn3WIOBCCoRg0-VuZOkHp" alt="Desktop app" width="170" /><br />
+    <strong>Desktop App</strong>
+  </span>
+  <span style="display: inline-block; text-align: center; margin: 0 4px;">
+    <img src="https://drive.google.com/uc?export=view&id=10OTuzRVivH1a50d62AjurPvnE24ulwdD" alt="Mobile app 1" width="170" /><br />
+    <strong>Mobile · Home</strong>
+  </span>
+  <span style="display: inline-block; text-align: center; margin: 0 4px;">
+    <img src="https://drive.google.com/uc?export=view&id=1d3TCAUUkMlqBpTDDnQSWSJy9SQbks7m6" alt="Mobile app 2" width="170" /><br />
+    <strong>Mobile · Approve</strong>
+  </span>
+  <span style="display: inline-block; text-align: center; margin: 0 4px;">
+    <img src="https://drive.google.com/uc?export=view&id=1BKvpzWOtq_wbbgDcSpNuuEZdqGEdE0eE" alt="Mobile app 3" width="170" /><br />
+    <strong>Mobile · Activity</strong>
+  </span>
 </p>
+
 ---
 
 ## What is Vibe Remote?
