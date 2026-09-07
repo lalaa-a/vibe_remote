@@ -1,4 +1,4 @@
-# Vibe Remote <p align="left"> <img src="https://github.com/lalaa-a/vibe_remote/blob/main/desktop/src/assets/logo/vibeRemote_icon.png" alt="Vibe Remote logo" width="72" height="72" /> </p>
+**# Vibe Remote <p align="left"> <img src="https://github.com/lalaa-a/vibe_remote/blob/main/desktop/src/assets/logo/vibeRemote_icon.png" alt="Vibe Remote logo" width="72" height="72" /> </p>**
 
 > Remotely supervise your AI coding agents (Claude Code, OpenCode, Gemini CLI) from your phone approve tool calls, answer questions, inject prompts, and watch your agent work in real time, from anywhere.
 
