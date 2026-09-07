@@ -13,21 +13,12 @@
 ---
 
 ## Screenshots
-
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1pgKyH2_rDhMJn3WIOBCCoRg0-VuZOkHp" alt="Desktop app" width="600" />
-  <br />
-  <em>Desktop app interface</em>
+  <img src="https://drive.google.com/uc?export=view&id=1pgKyH2_rDhMJn3WIOBCCoRg0-VuZOkHp" alt="Desktop app" width="180" />
+  <img src="https://drive.google.com/uc?export=view&id=10OTuzRVivH1a50d62AjurPvnE24ulwdD" alt="Mobile app 1" width="180" />
+  <img src="https://drive.google.com/uc?export=view&id=1d3TCAUUkMlqBpTDDnQSWSJy9SQbks7m6" alt="Mobile app 2" width="180" />
+  <img src="https://drive.google.com/uc?export=view&id=1BKvpzWOtq_wbbgDcSpNuuEZdqGEdE0eE" alt="Mobile app 3" width="180" />
 </p>
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=10OTuzRVivH1a50d62AjurPvnE24ulwdD" alt="Mobile app screenshot 1" width="200" />
-  <img src="https://drive.google.com/uc?export=view&id=1d3TCAUUkMlqBpTDDnQSWSJy9SQbks7m6" alt="Mobile app screenshot 2" width="200" />
-  <img src="https://drive.google.com/uc?export=view&id=1BKvpzWOtq_wbbgDcSpNuuEZdqGEdE0eE" alt="Mobile app screenshot 3" width="200" />
-  <br />
-  <em>Mobile app interface</em>
-</p>
-
 ---
 
 ## What is Vibe Remote?
