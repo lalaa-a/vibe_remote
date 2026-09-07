@@ -14,7 +14,7 @@
 
 ## What is Vibe Remote?
 
-You kick off a coding agent on your desktop, walk away, and it needs you — a tool call needs approval, it's asking a question, it's waiting on your next prompt. Vibe Remote lets you handle all of that from your phone instead of being chained to your desk.
+You kick off a coding agent on your desktop, walk away, and it needs you a tool call needs approval, it's asking a question, it's waiting on your next prompt. Vibe Remote lets you handle all of that from your phone instead of being chained to your desk.
 
 A lightweight **desktop daemon** hooks into your AI CLI of choice, relays every tool-use request, question, and terminal event to a **server**, which pushes it to your **phone** in real time. You approve, deny, answer, or send a new prompt — it flows straight back to the agent.
 
