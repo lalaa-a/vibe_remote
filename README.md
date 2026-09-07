@@ -15,21 +15,25 @@
 ## Screenshots
 
 <p align="center">
-  <span style="display: inline-block; text-align: center; margin: 0 4px;">
-    <img src="https://drive.google.com/uc?export=view&id=1pgKyH2_rDhMJn3WIOBCCoRg0-VuZOkHp" alt="Desktop app" width="170" /><br />
+  <span style="display: inline-block; margin: 0 10px; text-align: center;">
+    <img src="https://drive.google.com/uc?export=view&id=1pgKyH2_rDhMJn3WIOBCCoRg0-VuZOkHp" alt="Desktop app" width="160" height="auto" />
+    <br />
     <strong>Desktop App</strong>
   </span>
-  <span style="display: inline-block; text-align: center; margin: 0 4px;">
-    <img src="https://drive.google.com/uc?export=view&id=10OTuzRVivH1a50d62AjurPvnE24ulwdD" alt="Mobile app 1" width="170" /><br />
-    <strong>Mobile · Home</strong>
+  <span style="display: inline-block; margin: 0 10px; text-align: center;">
+    <img src="https://drive.google.com/uc?export=view&id=10OTuzRVivH1a50d62AjurPvnE24ulwdD" alt="Mobile app 1" width="160" height="auto" />
+    <br />
+    <strong>Mobile App</strong>
   </span>
-  <span style="display: inline-block; text-align: center; margin: 0 4px;">
-    <img src="https://drive.google.com/uc?export=view&id=1d3TCAUUkMlqBpTDDnQSWSJy9SQbks7m6" alt="Mobile app 2" width="170" /><br />
-    <strong>Mobile · Approve</strong>
+  <span style="display: inline-block; margin: 0 10px; text-align: center;">
+    <img src="https://drive.google.com/uc?export=view&id=1d3TCAUUkMlqBpTDDnQSWSJy9SQbks7m6" alt="Mobile app 2" width="160" height="auto" />
+    <br />
+    <strong>Mobile App</strong>
   </span>
-  <span style="display: inline-block; text-align: center; margin: 0 4px;">
-    <img src="https://drive.google.com/uc?export=view&id=1BKvpzWOtq_wbbgDcSpNuuEZdqGEdE0eE" alt="Mobile app 3" width="170" /><br />
-    <strong>Mobile · Activity</strong>
+  <span style="display: inline-block; margin: 0 10px; text-align: center;">
+    <img src="https://drive.google.com/uc?export=view&id=1BKvpzWOtq_wbbgDcSpNuuEZdqGEdE0eE" alt="Mobile app 3" width="160" height="auto" />
+    <br />
+    <strong>Mobile App</strong>
   </span>
 </p>
 
