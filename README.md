@@ -1,5 +1,7 @@
 <h1 align="left"> <img src="https://raw.githubusercontent.com/lalaa-a/vibe_remote/main/desktop/src/assets/logo/vibeRemote_icon.png" alt="Vibe Remote logo" width="40" height="40" valign="middle" /> Vibe Remote </h1>
 
+> Remotely supervise your AI coding agents (Claude Code, OpenCode, Gemini CLI) from your phone — approve tool calls, answer questions, inject prompts, and watch your agent work in real time, from anywhere.
+
 [![License](https://img.shields.io/badge/license-BSL--1.1-blue)](./LICENSE)
 [![Server](https://img.shields.io/badge/server-Express-black)](./server)
 [![Desktop](https://img.shields.io/badge/desktop-Electron-47848F)](./desktop)
@@ -10,9 +12,27 @@
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1pgKyH2_rDhMJn3WIOBCCoRg0-VuZOkHp" alt="Desktop app" width="600" />
+  <br />
+  <em>Desktop app interface</em>
+</p>
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=10OTuzRVivH1a50d62AjurPvnE24ulwdD" alt="Mobile app screenshot 1" width="200" />
+  <img src="https://drive.google.com/uc?export=view&id=1d3TCAUUkMlqBpTDDnQSWSJy9SQbks7m6" alt="Mobile app screenshot 2" width="200" />
+  <img src="https://drive.google.com/uc?export=view&id=1BKvpzWOtq_wbbgDcSpNuuEZdqGEdE0eE" alt="Mobile app screenshot 3" width="200" />
+  <br />
+  <em>Mobile app interface</em>
+</p>
+
+---
+
 ## What is Vibe Remote?
 
-You kick off a coding agent on your desktop, walk away, and it needs you a tool call needs approval, it's asking a question, it's waiting on your next prompt. Vibe Remote lets you handle all of that from your phone instead of being chained to your desk.
+You kick off a coding agent on your desktop, walk away, and it needs you — a tool call needs approval, it's asking a question, it's waiting on your next prompt. Vibe Remote lets you handle all of that from your phone instead of being chained to your desk.
 
 A lightweight **desktop daemon** hooks into your AI CLI of choice, relays every tool-use request, question, and terminal event to a **server**, which pushes it to your **phone** in real time. You approve, deny, answer, or send a new prompt — it flows straight back to the agent.
 
